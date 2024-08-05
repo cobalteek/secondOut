@@ -6,7 +6,13 @@ export default defineNuxtConfig({
       title: 'Test',
     }
   },
-  devtools: { enabled: true },
+  devtools: {
+    enabled: true,
+
+    timeline: {
+      enabled: true
+    }
+  },
   css: ['~/assets/main.scss'],
 
   modules: [

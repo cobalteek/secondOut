@@ -1,5 +1,16 @@
+<script setup lang="ts">
+
+
+</script>
+
 <template>
-    <div>
-        Test Template
-    </div>
+    <Header/>
+    <Card/>
 </template>
+
+<style>
+
+
+
+
+</style>

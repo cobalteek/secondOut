@@ -11,10 +11,7 @@
 
 <style lang="scss">
 main {
-  padding: 16px;
-  display: block;
-  flex: 1;
-  flex-basis: auto;
-  overflow: auto;
+  padding: 0;
+  margin: 0;
 }
 </style>
