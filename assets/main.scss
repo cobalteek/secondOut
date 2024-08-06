@@ -2,13 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: 'Minecraft Rus';
-  src: url('fonts/minecraft-webfont.woff'), url('fonts/minecraft-webfont.woff2') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
 body {
-  font-family: "Minecraft Rus", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
+  background-color: #ffffff;
+  min-height: 100vh;
+}
+
+.content-wrap {
+  flex: 1;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
