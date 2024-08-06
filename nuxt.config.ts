@@ -2,8 +2,8 @@
 export default defineNuxtConfig({
   app: {
     head: {
-      titleTemplate: '%s - Nuxt Template',
-      title: 'Test',
+      titleTemplate: '',
+      title: 'Outside',
     }
   },
   devtools: {

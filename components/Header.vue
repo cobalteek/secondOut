@@ -3,14 +3,14 @@
 </script>
 
 <template>
-  <div class = "nav">
+  <header class = "nav">
     <div class = "select-none">
-      <a href="http://localhost:3000" class = "main-tab">Outside</a>
+      <a href="/main" class = "main-tab">Outside</a>
     </div>
     <form class="frm" action="">
-      <input class = "inp" type="search" placeholder="Поиск товаров" >
+      <input class = "inp" type="search" placeholder="Поиск" >
     </form>
-  </div>
+  </header>
 </template>
 
 <style scoped lang="scss">
@@ -19,10 +19,9 @@
   display: inline-flex;
   justify-content: space-between;
   align-items: center;
-  height: 75px;
-  width: 60%;
-  margin-left: 20%;
-  background-color: #b71a1a;
+  height: 130px;
+  width: 100%;
+  background-color: #cc1818;
   color: #e2e7e8;
 }
 
@@ -35,7 +34,6 @@
   margin-right: 15px;
   align-items: flex-end;
   border-color: #e31d1d;
-  border-radius: 3px;
   color: black;
 }
 
@@ -44,9 +42,13 @@
   border: white 0;
 }
 
+
 .inp {
   background-color: #e2e7e8;
+  padding-left: 10px;
+  border-radius: 15px;
 }
+
 .inp:focus {
   outline: none;
 }
