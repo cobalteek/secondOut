@@ -1,11 +1,9 @@
 <template>
-  <div class="page-container">
   <Header/>
-  <div class="content-wrap">
+  <div>
     Карта
   </div>
   <Footer/>
-  </div>
 </template>
 
 <script setup>

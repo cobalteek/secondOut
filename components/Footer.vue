@@ -1,5 +1,6 @@
 <template>
   <footer>
+<<<<<<< HEAD
     <div class="cont">
       <div class="links">
         <a href="https://birds.land" target="_blank">Birds.land</a>
@@ -14,6 +15,22 @@
         <p>Не относится к Mojang Studios.</p>
       </div>
     </div>
+=======
+    <div>
+      <div class="cont">
+        <div class="links">
+          <a href="https://birds.land" target="_blank">Birds.land</a>
+        </div>
+        <div class="about">
+          <p>Discord: ebar_drakonov</p>
+          <p>prod. by cobalteek</p>
+        </div>
+      </div>
+    </div>
+<!--    <div class="disclaimer">-->
+<!--      <p>Не относится к Mojang Studios.</p>-->
+<!--    </div>-->
+>>>>>>> origin/goddamn
   </footer>
 </template>
 
@@ -30,6 +47,7 @@
     margin-top: auto;
   }
 
+<<<<<<< HEAD
   .cont-disc {
     display: flex;
     justify-content: flex-end;
@@ -37,6 +55,8 @@
     margin-right: 10px;
   }
 
+=======
+>>>>>>> origin/goddamn
   .cont {
     margin-top: 10px;
     padding-top: 10px;
@@ -52,8 +72,16 @@
     align-items: flex-start;
   }
 
+<<<<<<< HEAD
   .disclaimer {
     color: #b1b1b1
   }
 
+=======
+  //.disclaimer {
+  //  padding-top: 25px;
+  //  padding-left: 2059px;
+  //  color: #b1b1b1
+  //}
+>>>>>>> origin/goddamn
 </style>

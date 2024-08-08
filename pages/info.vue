@@ -5,13 +5,11 @@
 </script>
 
 <template>
-  <div class="page-container">
-    <Header/>
-    <div class="content-wrap">
-      Информационная страница
-    </div>
-    <Footer/>
+  <Header/>
+  <div>
+    Информационная страница
   </div>
+  <Footer/>
 </template>
 
 <style>

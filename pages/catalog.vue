@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
   <div class="page-container">
     <Header/>
     <div class="content-wrap">
@@ -6,6 +7,13 @@
     </div>
     <Footer/>
   </div>
+=======
+  <Header/>
+  <div>
+    Каталог
+  </div>
+  <Footer/>
+>>>>>>> origin/goddamn
 </template>
 
 <script setup>

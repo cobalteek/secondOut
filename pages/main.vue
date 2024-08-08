@@ -25,4 +25,7 @@ html, body {
   min-height: 100vh;
 }
 
+.content-wrap {
+  flex: 1;
+}
 </style>
