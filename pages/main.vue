@@ -1,5 +1,8 @@
 <script setup lang="ts">
-// ваш код
+import cardsJSON from '../json/card.json'
+
+const cards = cardsJSON.data.array
+
 </script>
 
 <template>
@@ -7,7 +10,15 @@
     <Header />
     <div class="content-wrap">
       <News />
-      <Card />
+      <div class="cont">
+        <Card
+          v-for="card in cards"
+          :card-path="card.path"
+          :card-name="card.name"
+          :img ="card.img"
+          :card-description = card.description
+        />
+      </div>
     </div>
     <Footer />
   </div>
@@ -19,13 +30,10 @@ html, body {
   margin: 0;
 }
 
-.page-container {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-.content-wrap {
-  flex: 1;
+.cont {
+  width: 100%;
+  height: 30vh;
+  display: inline-flex;
+  justify-content: center;
 }
 </style>
