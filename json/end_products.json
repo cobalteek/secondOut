@@ -2,15 +2,15 @@
     "data": {
         "info": "end_section",
         "array": [
-            {"name": "Эндерняк", "altNames": ["End Stone"], "description": "64 штуки — 1", "img": "end_icons/end_stone"},
-            {"name": "Эндерняковые кирпичи", "altNames": ["End Stone Bricks"], "description": "64 штуки — 1", "img": "end_icons/end_stone_bricks"},
-            {"name": "Цветок хоруса", "altNames": ["Chorus Flower"], "description": "64 штуки — 1", "img": "end_icons/chorus_flower"},
-            {"name": "Плод хоруса", "altNames": ["Chorus Fruit"], "description": "64 штуки — 1", "img": "end_icons/chorus_fruit"},
-            {"name": "Прожаренный плод хоруса", "altNames": ["Popped Chorus Fruit", "Жареный плод хоруса"], "description": "64 штуки — 1", "img": "end_icons/popped_chorus_fruit"},
-            {"name": "Пурпур", "altNames": ["Purpur Block", "Пурпурный блок", "Пурпурные кирпичи"], "description": "64 штуки — 1", "img": "end_icons/purpur_block"},
-            {"name": "Пурпуровый пилон", "altNames": ["Purpur Pillar", "Пурпурная колонна"], "description": "64 штуки — 1", "img": "end_icons/purpur_pillar"},
-            {"name": "Стержень Энда", "altNames": ["End Rod"], "description": "64 штуки — 2", "img": "end_icons/end_rod"},
-            {"name": "Кристалл Энда", "altNames": ["End Crystal"], "description": "4 штуки — 1 АБ", "img": "end_icons/end_crystal"}
+            {"name": "Эндерняк", "altNames": ["End Stone"], "description": "1", "count": "64", "img": "end_icons/end_stone"},
+            {"name": "Эндерняковые кирпичи", "altNames": ["End Stone Bricks"], "count": "64", "description": "1", "img": "end_icons/end_stone_bricks"},
+            {"name": "Цветок хоруса", "altNames": ["Chorus Flower"], "count": "64", "description": "1", "img": "end_icons/chorus_flower"},
+            {"name": "Плод хоруса", "altNames": ["Chorus Fruit"], "count": "64", "description": "1", "img": "end_icons/chorus_fruit"},
+            {"name": "Прожаренный плод хоруса", "altNames": ["Popped Chorus Fruit", "Жареный плод хоруса"], "count": "64", "description": "1", "img": "end_icons/popped_chorus_fruit"},
+            {"name": "Пурпур", "altNames": ["Purpur Block", "Пурпурный блок", "Пурпурные кирпичи"], "count": "64", "description": "1", "img": "end_icons/purpur_block"},
+            {"name": "Пурпуровый пилон", "altNames": ["Purpur Pillar", "Пурпурная колонна"], "count": "64", "description": "1", "img": "end_icons/purpur_pillar"},
+            {"name": "Стержень Энда", "altNames": ["End Rod"], "count": "64", "description": "2", "img": "end_icons/end_rod"},
+            {"name": "Кристалл Энда", "altNames": ["End Crystal"], "count": "4", "description": "1", "img": "end_icons/end_crystal"}
         ]
     }
 }

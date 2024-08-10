@@ -13,8 +13,9 @@ const endProudcts = endJSON.data.array
         v-for="product in endProudcts"
         :card-name = product.name
         :card-description = product.description
-        :img = product.img
+        :background-image = product.img
         :bool-price = true
+        :count = product.count
       />
     </div>
     <Footer/>
@@ -22,10 +23,6 @@ const endProudcts = endJSON.data.array
 </template>
 
 <style lang="scss" scoped>
-
-.add {
-  margin: 0 5px 0 5px;
-}
 
 .content-wrap {
   width: 70%;
