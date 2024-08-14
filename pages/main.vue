@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import cardsJSON from '../json/card.json'
 
-const cards = cardsJSON.data.array
+const cards = cardsJSON.data
 
 </script>
 
@@ -12,11 +12,13 @@ const cards = cardsJSON.data.array
       <News />
       <div class="cont">
         <Card
-          v-for="card in cards"
+          v-for="card in cards.array"
           :card-path="card.path"
           :card-name="card.name"
           :img ="card.img"
           :card-description = card.description
+          :color-card = card.colorCard
+          :color-background-text = card.colorBackgroundText
         />
       </div>
     </div>

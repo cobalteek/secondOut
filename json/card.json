@@ -1,6 +1,8 @@
 {
   "data": {
       "info": "main_cards",
+      "colorCard": "#CC1818D2",
+      "colorBackgroundText": "#9F1313CD",
       "array": [
           {"name": "Информация", "description": "Правила и всякая инфа", "img": "iron_chestplate", "path": "info"},
           {"name": "Каталог", "description": "Все товары и их цена", "img": "iron_chestplate", "path": "catalog"},

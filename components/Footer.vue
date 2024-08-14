@@ -2,7 +2,14 @@
   <footer>
     <div class="cont">
       <div class="links">
-        <a href="https://birds.land" target="_blank">Birds.land</a>
+        <a
+          href="https://birds.land"
+          target="_blank">
+          <img
+            alt=""
+            class=""
+            src="public/birdsLogo.svg">
+        </a>
       </div>
       <div class="about">
         <p>Discord: ebar_drakonov</p>
@@ -39,7 +46,6 @@
 
   .cont {
     margin-top: 10px;
-    padding-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
     display: flex;

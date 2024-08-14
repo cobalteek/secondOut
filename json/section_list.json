@@ -1,0 +1,19 @@
+{
+    "data": {
+        "info": "section_list",
+        "array": [
+            {"name": "Каменный отдел", "img": "stone_section_icon"},
+            {"name": "Древесный отдел", "img": "wood_section_icon"},
+            {"name": "Отдел с предметами", "img": "item_section_icon"},
+            {"name": "Продовольственный отдел", "img": "food_section_icon"},
+            {"name": "Отдел обмундирования", "img": "uniform_section_icon"},
+            {"name": "Функциональный отдел", "img": "functional_section_icon"},
+            {"name": "Редстоун отдел", "img": "redstone_section_icon"},
+            {"name": "Природный отдел", "img": "natural_section_icon"},
+            {"name": "Морской отдел", "img": "ocean_section_icon"},
+            {"name": "Адский отдел", "img": "nether_section_icon"},
+            {"name": "Отдел Края", "img": "end_section_icon"},
+            {"name": "Зельеварочный отдел", "img": "potion_section_icon"}
+        ]
+    }
+}
