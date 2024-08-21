@@ -3,10 +3,14 @@
 </script>
 
 <template>
-  <div class="flex flex-col">
-    <main>
-      <slot />
-    </main>
+  <div class="page-container">
+    <Header />
+    <div class="content-wrap">
+      <main>
+        <slot />
+      </main>
+    </div>
+  <Footer />
   </div>
 </template>
 
@@ -15,4 +19,5 @@ main {
   padding: 0;
   margin: 0;
 }
+
 </style>

@@ -5,7 +5,7 @@
       "colorBackgroundText": "#9F1313CD",
       "array": [
           {"name": "Информация", "description": "Правила и всякая инфа", "img": "iron_chestplate", "path": "info"},
-          {"name": "Каталог", "description": "Все товары и их цена", "img": "iron_chestplate", "path": "catalog"},
+          {"name": "Каталог", "description": "Все товары и их цена", "img": "iron_chestplate", "path": "catalogue"},
           {"name": "Карта", "description": "Карта и карта чё", "img": "iron_chestplate", "path": "map"}
       ]
   }

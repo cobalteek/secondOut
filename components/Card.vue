@@ -1,39 +1,38 @@
 <script setup>
+  const router = useRouter()
 
-const router = useRouter()
+  const headerTextSize = ref('--header-text-size')
+  const footerTextSize = ref('--footer-text-size')
 
-const headerTextSize = ref('--header-text-size')
-const footerTextSize = ref('--footer-text-size')
+  const props = defineProps({
+    cardName: String,
+    altNames: String,
+    cardDescription: String,
+    cardPath: String,
+    img: String,
+    boolPrice: Boolean,
+    isBlock: Boolean,
+    count: String,
+    backgroundImage: String,
+    header_text_size: String,
+    footer_text_size: String,
+    colorCard: String,
+    colorBackgroundText: String,
+    min_height: String,
+    min_width: String
+  })
 
-const props = defineProps({
-  cardName: String,
-  altNames: String,
-  cardDescription: String,
-  cardPath: String,
-  img: String,
-  boolPrice: Boolean,
-  isBlock: Boolean,
-  count: String,
-  backgroundImage: String,
-  header_text_size: String,
-  footer_text_size: String,
-  colorCard: String,
-  colorBackgroundText: String,
-  min_height: String,
-  min_width: String
-})
+  function goToLink(path) {
+    if (!path) return
+    router.push(path)
+  }
 
-function goToLink(path) {
-  if (!path) return
-  router.push(path)
-}
-
-if(props.cardName.length >= 13) {
-  headerTextSize.value = '21px';
-}
-if (props.footer_text_size == null) {
-  footerTextSize.value = "32px";
-}
+  if(props.cardName.length >= 13) {
+    headerTextSize.value = '21px';
+  }
+  if (props.footer_text_size == null) {
+    footerTextSize.value = "32px";
+  }
 
 </script>
 
@@ -74,12 +73,12 @@ if (props.footer_text_size == null) {
                 v-if="props.isBlock"
                 class="diamond-block"
                 alt=""
-                src="../public/images/diamond_block.webp">
+                src="../public/images/tool_icons/diamond_block.webp">
               <img
                 v-else
                 class="diamond"
                 alt=""
-                src="../public/images/diamond.webp">
+                src="../public/images/tool_icons/diamond.webp">
             </div>
           </div>
         </div>
@@ -94,8 +93,8 @@ if (props.footer_text_size == null) {
   display: inline-flex;
   justify-content: space-between;
   align-items: center;
-  margin-right: 50px;
-  margin-left: 50px;
+  margin-right: 2vw;
+  margin-left: 5vw;
 }
 
 .card {
@@ -110,7 +109,7 @@ if (props.footer_text_size == null) {
   margin-bottom: 15px;
   color: black;
   background-color: var(--color-card);
-  border-radius: 36px;
+  border-radius: 3vh;
 }
 
 .card-title {
@@ -119,6 +118,7 @@ if (props.footer_text_size == null) {
   align-items: center;
   text-align: center;
   height: 6vh;
+  width: 100%;
   padding-top: 10px;
 }
 
@@ -140,7 +140,13 @@ if (props.footer_text_size == null) {
   align-items: flex-end;
   min-height: 15.4vh;
   min-width: 12.7vw;
-  margin-top: 10px;
+  margin-top: 1vw;
+}
+
+.card-content img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
 }
 
 .card-footer {
@@ -156,7 +162,7 @@ if (props.footer_text_size == null) {
   justify-content: center;
   align-items: center;
   background-color: var(--color-background-text);
-  border-radius: 33px;
+  border-radius: 3vh;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -164,7 +170,7 @@ if (props.footer_text_size == null) {
 .backgroundText {
   display: flex;
   background-color: var(--color-background-text);
-  border-radius: 36px;
+  border-radius: 3vh;
   padding-left: 5px;
   padding-right: 5px;
   font-size: var(--header-text-size);
@@ -180,19 +186,19 @@ if (props.footer_text_size == null) {
 .count {
   font-family: "Minecraft Rus", sans-serif;
   color: white;
-  text-shadow: 5px 5px #3f3f3f;
+  text-shadow: 0.4vh 0.4vh #3f3f3f;
   font-weight: revert;
   font-size: 3.25vh;
   padding: 25px;
 }
 
 .diamond {
-  width: 40px;
+  width: 2.3vw;
   padding: 2px 0 4px 0;
 }
 
 .diamond-block {
-  width: 40px;
+  width: 2.2vw;
   padding: 4px 0 4px 0;
 }
 

@@ -8,7 +8,7 @@
           <img
             alt=""
             class=""
-            src="public/birdsLogo.svg">
+            src="../public/images/tool_icons/birdsLogo.svg">
         </a>
       </div>
       <div class="about">

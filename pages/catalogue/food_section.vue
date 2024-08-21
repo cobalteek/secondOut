@@ -1,23 +1,15 @@
 <script setup>
-import endJSON from '../json/end_products.json'
-import foodJSON from '../json/food_products.json'
-
-const endProudcts = ref()
+import foodJSON from '@/content/food_products.json'
 const foodProducts = ref()
 async function fetchData() {
-  endProudcts.value = await endJSON.data
   foodProducts.value = await foodJSON.data
 }
-
-
 fetchData()
 
 </script>
 
 <template>
-  <div class="page-container">
-    <Header/>
-    <div class="content-wrap">
+  <div>
       <Card
         v-if="foodProducts"
         v-for="product in foodProducts.array"
@@ -32,9 +24,7 @@ fetchData()
         header_text_size = "1.8vh"
         footer_text_size = "3vh"
       />
-      <div v-else>Загрузка</div>
-    </div>
-    <Footer/>
+      <div class="loader" v-else><Loader/></div>
   </div>
 </template>
 
@@ -43,6 +33,10 @@ fetchData()
 .content-wrap {
   width: 70%;
   flex: 1;
+}
+
+.loader {
+  margin-top: 25vh;
 }
 
 </style>

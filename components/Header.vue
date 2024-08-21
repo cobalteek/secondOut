@@ -1,4 +1,9 @@
 <script setup>
+let prop
+function wtf() {
+  console.log(prop)
+}
+
 </script>
 
 <template>
@@ -8,8 +13,13 @@
         <a href="/main" class = "main-tab">Outside</a>
       </div>
       <form class="frm" action="">
-        <input class = "inp" type="search" placeholder="Поиск" >
-        <button @click=""> </button>
+        <input v-model="prop" class = "inp" type="search" placeholder="Поиск" >
+        <button class="btn" @click="wtf">
+          <img
+            class="search-btn"
+            alt=""
+            src="../public/images/tool_icons/search16.svg">
+        </button>
       </form>
     </div>
   </header>
@@ -40,15 +50,19 @@
 }
 
 .frm {
+  display: flex;
+  justify-content: center;
   margin-right: 15px;
+  padding-right: 4px;
   align-items: flex-end;
   border-color: #e31d1d;
+  background-color: #e2e7e8;
+  border-radius: 15px;
   color: black;
 }
 
-.btn {
-  background-color: #e2e7e8;
-  border: white 0;
+.search-btn {
+  padding-bottom: 4px;
 }
 
 
@@ -56,9 +70,6 @@
   background-color: #e2e7e8;
   padding-left: 10px;
   border-radius: 15px;
-  background-image: url("../public/images/search16.svg");
-  background-repeat: no-repeat;
-  background-position: center right 5px;
 }
 
 input[type="search"]::-webkit-search-cancel-button {
