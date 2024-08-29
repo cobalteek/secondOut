@@ -10,11 +10,12 @@
         <slot />
       </main>
     </div>
-  <Footer />
+    <Footer />
   </div>
 </template>
 
 <style lang="scss">
+
 main {
   padding: 0;
   margin: 0;

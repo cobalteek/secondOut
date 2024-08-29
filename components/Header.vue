@@ -1,8 +1,5 @@
 <script setup>
-let prop
-function wtf() {
-  console.log(prop)
-}
+
 
 </script>
 
@@ -10,10 +7,14 @@ function wtf() {
   <header class = "nav">
     <div class = "cont">
       <div class = "select-none">
-        <a href="/main" class = "main-tab">Outside</a>
+        <NuxtLink to="/main" class = "main-tab">Outside</NuxtLink>
       </div>
       <form class="frm" action="">
-        <input v-model="prop" class = "inp" type="search" placeholder="Поиск" >
+        <input
+          class = "inp"
+          type="text"
+          placeholder="Поиск"
+        >
         <button class="btn" @click="wtf">
           <img
             class="search-btn"
@@ -83,6 +84,5 @@ input[type="search"]::-webkit-search-cancel-button {
 .inp:checked {
   background-image: none;
 }
-
 
 </style>

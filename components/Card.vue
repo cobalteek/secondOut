@@ -22,11 +22,6 @@
     min_width: String
   })
 
-  function goToLink(path) {
-    if (!path) return
-    router.push(path)
-  }
-
   if(props.cardName.length >= 13) {
     headerTextSize.value = '21px';
   }
@@ -39,7 +34,7 @@
 <template>
   <div class = "cont">
     <div class = "card" :style="{'--color-card': `${props.colorCard}`}" >
-      <div @click=goToLink(props.cardPath) :class="{ 'cursor-pointer': props.cardPath }">
+      <NuxtLink :to="props.cardPath">
         <div class = "card-title">
           <p
             class="backgroundText"
@@ -59,7 +54,7 @@
             <p class="count" >{{ props.count }}</p>
           </div>
         </div>
-        <div class="card-footer">
+        <div v-if=props.cardDescription class="card-footer">
           <div class="card-price" :style="{'--color-background-text': `${props.colorBackgroundText}`}">
             <p
               v-if="props.boolPrice"
@@ -82,7 +77,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </NuxtLink>
     </div>
   </div>
 </template>
@@ -101,7 +96,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 15.25vw;
+  width: 16vw;
   height: 32vh;
   overflow: hidden;
   box-sizing: border-box;
@@ -128,6 +123,7 @@
   align-items: center;
   height: 20.5vh;
   width: 15.25vw;
+  margin-left: 0.35vw;
   background-image: var(--bg-image);
   background-size: 20.5vh;
   background-position: center;
@@ -189,7 +185,7 @@
   text-shadow: 0.4vh 0.4vh #3f3f3f;
   font-weight: revert;
   font-size: 3.25vh;
-  padding: 25px;
+  padding: 1.25vw;
 }
 
 .diamond {

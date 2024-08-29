@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@pinia/nuxt": "^0.5.1",
+    "analyze": "^0.0.14",
     "nuxt": "^3.12.4",
     "pinia": "^2.2.0",
     "vue": "^3.4.34",

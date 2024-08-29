@@ -1,5 +1,6 @@
 <script setup>
 import foodJSON from '@/content/food_products.json'
+
 const foodProducts = ref()
 async function fetchData() {
   foodProducts.value = await foodJSON.data
