@@ -22,13 +22,6 @@
     min_width: String
   })
 
-  if(props.cardName.length >= 13) {
-    headerTextSize.value = '21px';
-  }
-  if (props.footer_text_size == null) {
-    footerTextSize.value = "32px";
-  }
-
 </script>
 
 <template>
@@ -43,13 +36,6 @@
             {{ props.cardName }}</p>
         </div>
         <div class="card-content" :style="{ '--bg-image': `url(../images/${backgroundImage}.webp)`}">
-          <div
-            class="card-content-img">
-            <img
-              v-if="!props.boolPrice"
-              alt=""
-              :src="`/images/${props.img}.svg`">
-          </div>
           <div class="card-content-p">
             <p class="count" >{{ props.count }}</p>
           </div>
@@ -88,8 +74,7 @@
   display: inline-flex;
   justify-content: space-between;
   align-items: center;
-  margin-right: 2vw;
-  margin-left: 5vw;
+  margin-right: 1.25vw;
 }
 
 .card {
@@ -199,10 +184,7 @@
 }
 
 @media (max-width: 600px) {
-  .card {
-    width: 100%;
-    height: auto;
-  }
+
 }
 
 </style>

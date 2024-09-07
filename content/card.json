@@ -4,9 +4,9 @@
       "colorCard": "#CC1818D2",
       "colorBackgroundText": "#9F1313CD",
       "array": [
-          {"name": "Информация", "description": "Правила и всякая инфа", "img": "tool_icons/iron_chestplate", "path": "info"},
-          {"name": "Каталог", "description": "Все товары и их цена", "img": "tool_icons/iron_chestplate", "path": "catalogue"},
-          {"name": "Карта", "description": "Карта и карта чё", "img": "tool_icons/iron_chestplate", "path": "map"}
+          {"name": "Информация", "description": "Правила и всякая инфа", "img": "tool_icons/info", "path": "info"},
+          {"name": "Каталог", "description": "Все товары и их цена", "img": "tool_icons/catalogue", "path": "catalogue"},
+          {"name": "Карта", "description": "Карта и карта чё", "img": "tool_icons/map", "path": "map"}
       ]
   }
 }

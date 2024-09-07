@@ -6,10 +6,11 @@
 </template>
 
 <script setup>
-let load = 'Loading'
+let load = 'Загрузка'
 </script>
 
 <style lang="scss" scoped>
+
 .loader {
   display: flex;
   flex-direction: column;

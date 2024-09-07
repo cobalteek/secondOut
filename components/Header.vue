@@ -1,13 +1,12 @@
 <script setup>
 
-
 </script>
 
 <template>
   <header class = "nav">
     <div class = "cont">
       <div class = "select-none">
-        <NuxtLink to="/main" class = "main-tab">Outside</NuxtLink>
+        <NuxtLink to="/" class = "main-tab">Outside</NuxtLink>
       </div>
       <form class="frm" action="">
         <input
@@ -15,7 +14,7 @@
           type="text"
           placeholder="Поиск"
         >
-        <button class="btn" @click="wtf">
+        <button class="btn">
           <img
             class="search-btn"
             alt=""
