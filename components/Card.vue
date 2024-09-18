@@ -21,6 +21,7 @@
     min_height: String,
     min_width: String
   })
+  
 
 </script>
 

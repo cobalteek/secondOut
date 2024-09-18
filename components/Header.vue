@@ -1,4 +1,16 @@
 <script setup>
+import { ref } from 'vue';
+import { useRouter } from 'vue-router';
+
+const query = ref('');
+const router = useRouter();
+
+const submitSearch = () => {
+  if (query.value) {
+    router.push({ name: 'searchResult', query: { q: query.value } });
+  }
+};
+
 
 </script>
 
@@ -8,13 +20,17 @@
       <div class = "select-none">
         <NuxtLink to="/" class = "main-tab">Outside</NuxtLink>
       </div>
-      <form class="frm" action="">
+      <form class="frm" @submit.prevent="submitSearch">
         <input
           class = "inp"
           type="text"
           placeholder="Поиск"
+          v-model="query"
         >
-        <button class="btn">
+        <button
+          class="btn"
+          type="submit"
+        >
           <img
             class="search-btn"
             alt=""

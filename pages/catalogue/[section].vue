@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import prodJSON from '../../content/outside_products.json'
+import { useRoute } from 'vue-router';
 
 const route = useRoute()
 

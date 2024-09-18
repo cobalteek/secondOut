@@ -13,7 +13,7 @@
       </div>
       <div class="about">
         <p>Discord: ebar_drakonov</p>
-        <p>prod. by cobalteek</p>
+        <a href="https://github.com/cobalteek" target="_blank">prod. by cobalteek</a>
       </div>
     </div>
     <div class="cont-disc">
