@@ -21,13 +21,13 @@
     min_height: String,
     min_width: String
   })
-  
+
 
 </script>
 
 <template>
   <div class = "cont">
-    <div class = "card" :style="{'--color-card': `${props.colorCard}`}" >
+    <div :class="['card', { 'transform hover:scale-105 transition duration-300': !boolPrice }]" :style="{'--color-card': `${props.colorCard}`}" >
       <NuxtLink :to="props.cardPath">
         <div class = "card-title">
           <p
@@ -54,12 +54,10 @@
               <img
                 v-if="props.isBlock"
                 class="diamond-block"
-                alt=""
                 src="../public/images/tool_icons/diamond_block.webp">
               <img
                 v-else
                 class="diamond"
-                alt=""
                 src="../public/images/tool_icons/diamond.webp">
             </div>
           </div>
@@ -184,8 +182,58 @@
   padding: 4px 0 4px 0;
 }
 
-@media (max-width: 600px) {
 
+@media (max-width: 375px) {
+  .cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+  }
+
+  .card {
+    height: 220px;
+    width: 120px;
+  }
+
+  .card-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 120px;
+    margin-left: 0.35vw;
+    background-image: var(--bg-image);
+    background-size: 120px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+@media (max-width: 600px) {
+  .cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+  }
+
+  .card {
+    height: 220px;
+    width: 120px;
+  }
+
+  .card-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 120px;
+    margin-left: 0.35vw;
+    background-image: var(--bg-image);
+    background-size: 120px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
 }
 
 </style>

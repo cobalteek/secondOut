@@ -9,6 +9,7 @@ const submitSearch = () => {
   if (query.value) {
     router.push({ name: 'searchResult', query: { q: query.value } });
   }
+  query.value = ''
 };
 
 
@@ -17,8 +18,8 @@ const submitSearch = () => {
 <template>
   <header class = "nav">
     <div class = "cont">
-      <div class = "select-none">
-        <NuxtLink to="/" class = "main-tab">Outside</NuxtLink>
+      <div class = "select-none transform hover:scale-105 transition duration-300">
+        <NuxtLink to="/" class = "main-tab ">Outside</NuxtLink>
       </div>
       <form class="frm" @submit.prevent="submitSearch">
         <input

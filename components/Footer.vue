@@ -1,12 +1,16 @@
+<script setup>
+
+</script>
+
 <template>
   <footer>
     <div class="cont">
-      <div class="links">
+      <div class="links transform hover:scale-105 transition duration-300">
         <a
           href="https://birds.land"
           target="_blank">
           <img
-            alt=""
+            alt="Лютий сайтик пон?"
             class=""
             src="../public/images/tool_icons/birdsLogo.svg">
         </a>
@@ -23,10 +27,6 @@
     </div>
   </footer>
 </template>
-
-<script setup>
-
-</script>
 
 <style lang="scss" scoped>
   footer {

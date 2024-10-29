@@ -1,12 +1,12 @@
 <template>
   <div class="loader">
     <img class="img-loader" src="../public/images/tool_icons/ender_chest.webp" alt="">
-    <p class="text-loader">{{load}}</p>
+    <p class="text-loader">Загрузка</p>
   </div>
 </template>
 
 <script setup>
-let load = 'Загрузка'
+
 </script>
 
 <style lang="scss" scoped>

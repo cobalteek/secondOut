@@ -1,1 +1,1 @@
-# nuxt3-template
+# Outside

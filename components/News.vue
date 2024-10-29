@@ -22,35 +22,44 @@ loadMarkdown();
 </script>
 
 <template>
-  <div class="news-content">
+  <div class="news-content prose prose-lg">
     <div
       class="text"
       v-html="htmlContent"
       v-if="htmlContent"
     />
-    <Loader class="text" v-else/>
+    <Loader class="text" v-else />
   </div>
 </template>
 
-
 <style lang="scss" scoped>
   .news-content {
-    margin-left: 9%;
     min-height: 30vh;
-    width: 81%;
-  }
-
-  h1, h2, h3, h4, h5, h6 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 100%;
   }
 
   .text {
-    font-size: 1.5em;
+    font-size: 20px;
     margin-top: 3px;
     padding-top: 3%;
     padding-bottom: 3%;
+  }
+
+
+  @media (max-width: 375px) {
+    .text {
+      font-size: 18px;
+    }
+  }
+  @media (max-width: 600px) {
+    .text {
+      font-size: 18px;
+    }
+  }
+  @media (max-width: 960px) {
+    .text {
+      font-size: 18px;
+    }
   }
 
 </style>

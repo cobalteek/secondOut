@@ -4,30 +4,26 @@ const cards = cardsJSON.data
 </script>
 
 <template>
-  <div>
+  <div class="cont">
     <News />
-    <div class="cont">
-      <Card
-        v-for="card in cards.array"
-        :card-path = card.path
-        :card-name = card.name
-        :card-description = card.description
-        :background-image = card.img
-        :count = card.count
-        :color-card = card.colorCard
-        :color-background-text = card.colorBackgroundText
-        header_text_size = "1.8vh"
-        footer_text_size = "3vh"
-      />
-    </div>
+  </div>
+  <div class="cont">
+    <Card
+      v-for="card in cards.array"
+      :card-path = card.path
+      :card-name = card.name
+      :card-description = card.description
+      :background-image = card.img
+      :count = card.count
+      :color-card = card.colorCard
+      :color-background-text = card.colorBackgroundText
+      header_text_size = "1.8vh"
+      footer_text_size = "3vh"
+    />
   </div>
 </template>
 
 <style scoped>
-html, body {
-  height: 100%;
-  margin: 0;
-}
 
 .cont {
   width: 100%;
@@ -35,4 +31,5 @@ html, body {
   display: inline-flex;
   justify-content: center;
 }
+
 </style>
