@@ -5,11 +5,9 @@
 <template>
   <div class="page-container">
     <Header />
-    <div class="content-wrap">
-      <main>
-        <slot />
-      </main>
-    </div>
+    <main class="content-wrap">
+      <slot />
+    </main>
     <Footer />
   </div>
 </template>

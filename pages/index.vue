@@ -4,8 +4,8 @@ const cards = cardsJSON.data
 </script>
 
 <template>
-  <div class="cont">
-    <News />
+  <div class="news">
+    <News/>
   </div>
   <div class="cont">
     <Card
@@ -30,6 +30,14 @@ const cards = cardsJSON.data
   height: 30vh;
   display: inline-flex;
   justify-content: center;
+}
+
+.news {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+
 }
 
 </style>

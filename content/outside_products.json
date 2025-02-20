@@ -4,24 +4,24 @@
             "name": "Каменный отдел",
             "img": "section_icons/stone_section_icon",
             "path": "catalogue/stoneProducts",
-            "colorCard": "#CCBD18C8",
-            "colorBackgroundText": "#93870FC8",
+            "colorCard": "#757575",
+            "colorBackgroundText": "#656565",
             "category": "sections"
         },
         {
             "name": "Древесный отдел",
             "img": "section_icons/wood_section_icon",
             "path": "catalogue/woodProducts",
-            "colorCard": "#CCBD18C8",
-            "colorBackgroundText": "#93870FC8",
+            "colorCard": "#ac8c53",
+            "colorBackgroundText": "#937240",
             "category": "sections"
         },
         {
             "name": "Отдел с предметами",
             "img": "section_icons/item_section_icon",
             "path": "catalogue/itemProducts",
-            "colorCard": "#CCBD18C8",
-            "colorBackgroundText": "#93870FC8",
+            "colorCard": "#cccdfb",
+            "colorBackgroundText": "#7272b7",
             "category": "sections"
         },
         {
@@ -36,48 +36,48 @@
             "name": "Отдел обмундирования",
             "img": "section_icons/uniform_section_icon",
             "path": "catalogue/uniformProducts",
-            "colorCard": "#CCBD18C8",
-            "colorBackgroundText": "#93870FC8",
+            "colorCard": "rgb(47, 241, 233, 0.65)",
+            "colorBackgroundText": "#2fd2bf",
             "category": "sections"
         },
         {
             "name": "Функциональный отдел",
             "img": "section_icons/functional_section_icon",
             "path": "catalogue/functionalProducts",
-            "colorCard": "#CCBD18C8",
-            "colorBackgroundText": "#93870FC8",
+            "colorCard": "rgb(171, 103, 59, 0.86)",
+            "colorBackgroundText": "#9e5f36",
             "category": "sections"
         },
         {
             "name": "Редстоун отдел",
             "img": "section_icons/redstone_section_icon",
             "path": "catalogue/redstoneProducts",
-            "colorCard": "#CCBD18C8",
-            "colorBackgroundText": "#93870FC8",
+            "colorCard": "rgba(255, 36, 0, 0.86)",
+            "colorBackgroundText": "#cc1b00",
             "category": "sections"
         },
         {
             "name": "Природный отдел",
             "img": "section_icons/natural_section_icon",
             "path": "catalogue/naturalProducts",
-            "colorCard": "#CCBD18C8",
-            "colorBackgroundText": "#93870FC8",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1",
             "category": "sections"
         },
         {
             "name": "Морской отдел",
             "img": "section_icons/ocean_section_icon",
             "path": "catalogue/oceanProducts",
-            "colorCard": "#CCBD18C8",
-            "colorBackgroundText": "#93870FC8",
+            "colorCard": "#1f96b1",
+            "colorBackgroundText": "#1d6d8d",
             "category": "sections"
         },
         {
             "name": "Адский отдел",
             "img": "section_icons/nether_section_icon",
             "path": "catalogue/netherProducts",
-            "colorCard": "#c16215",
-            "colorBackgroundText": "#743b0c",
+            "colorCard": "#f18322",
+            "colorBackgroundText": "rgb(140, 60, 9, 0.56)",
             "category": "sections"
         },
         {
@@ -92,8 +92,8 @@
             "name": "Зельеварочный отдел",
             "img": "section_icons/potion_section_icon",
             "path": "catalogue/potionProducts",
-            "colorCard": "#CCBD18C8",
-            "colorBackgroundText": "#93870FC8",
+            "colorCard": "rgb(83, 30, 220, 0.66)",
+            "colorBackgroundText": "rgb(130, 98, 213)",
             "category": "sections"
         },
         {
@@ -284,7 +284,9 @@
                 "Мясо",
                 "Meat",
                 "Еда",
-                "Food"
+                "Food",
+                "Рыба",
+                "Fish"
             ],
             "count": "64",
             "description": "1",
@@ -300,7 +302,9 @@
                 "Мясо",
                 "Meat",
                 "Еда",
-                "Food"
+                "Food",
+                "Рыба",
+                "Fish"
             ],
             "count": "64",
             "description": "1",
@@ -316,7 +320,9 @@
                 "Мясо",
                 "Meat",
                 "Еда",
-                "Food"
+                "Food",
+                "Рыба",
+                "Fish"
             ],
             "count": "64",
             "description": "1",
@@ -332,7 +338,9 @@
                 "Мясо",
                 "Meat",
                 "Еда",
-                "Food"
+                "Food",
+                "Рыба",
+                "Fish"
             ],
             "count": "64",
             "description": "1",
@@ -348,7 +356,9 @@
                 "Мясо",
                 "Meat",
                 "Еда",
-                "Food"
+                "Food",
+                "Рыба",
+                "Fish"
             ],
             "count": "64",
             "description": "1",
@@ -1093,6 +1103,606 @@
             "category": "endProducts",
             "colorCard": "#CCA0BABF",
             "colorBackgroundText": "#B790A7"
+        },
+        {
+            "name": "Коричневый гриб",
+            "altNames": ["Brown Mushroom", "Зельеварение", "Brewing"],
+            "img": "natural_icons/brown_mushroom",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Блок коричневого гриба",
+            "altNames": ["Brown Mushroom Block", "Строительные блоки", "Building Blocks"],
+            "img": "natural_icons/brown_mushroom_block",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Красный гриб",
+            "altNames": ["Red Mushroom", "Зельеварение", "Brewing"],
+            "img": "natural_icons/red_mushroom",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Блок красного гриба",
+            "altNames": ["Red Mushroom Block", "Строительные блоки", "Building Blocks"],
+            "img": "natural_icons/red_mushroom_block",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Ножка гриба",
+            "altNames": ["Mushroom Stem", "Строительные блоки", "Building Blocks"],
+            "img": "natural_icons/mushroom_stem",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Бамбук",
+            "altNames": ["Bamboo", "Растения", "Plants"],
+            "img": "natural_icons/bamboo",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Блок бамбука",
+            "altNames": ["Bamboo Block", "Строительные блоки", "Building Blocks"],
+            "img": "natural_icons/bamboo_block",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Блок обтёсанного бамбука",
+            "altNames": ["Stripped Bamboo Block", "Строительные блоки", "Building Blocks"],
+            "img": "natural_icons/stripped_bamboo_block",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Азалия",
+            "altNames": ["Azalea", "Растения", "Plants"],
+            "img": "natural_icons/azalea",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Цветущая азалия",
+            "altNames": ["Flowering Azalea", "Растения", "Plants"],
+            "img": "natural_icons/flowering_azalea",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Листья азалии",
+            "altNames": ["Azalea Leaves", "Растения", "Plants"],
+            "img": "natural_icons/azalea_leaves",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Листья цветущей азалии",
+            "altNames": ["Flowering Azalea Leaves", "Растения", "Plants"],
+            "img": "natural_icons/flowering_azalea_leaves",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Земля",
+            "altNames": ["Dirt", "Природные блоки", "Natural Blocks"],
+            "img": "natural_icons/dirt",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Каменистая земля",
+            "altNames": ["Coarse Dirt", "Природные блоки", "Natural Blocks"],
+            "img": "natural_icons/coarse_dirt",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Корнистая земля",
+            "altNames": ["Rooted Dirt", "Природные блоки", "Natural Blocks"],
+            "img": "natural_icons/rooted_dirt",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Свисающие корни",
+            "altNames": ["Hanging Roots", "Природные блоки", "Natural Blocks"],
+            "img": "natural_icons/hanging_roots",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Дёрн",
+            "altNames": ["Grass Block", "Природные блоки", "Natural Blocks"],
+            "img": "natural_icons/grass_block",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Подзол",
+            "altNames": ["Podzol", "Природные блоки", "Natural Blocks"],
+            "img": "natural_icons/podzol",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Мицелий",
+            "altNames": ["Mycelium", "Природные блоки", "Natural Blocks"],
+            "img": "natural_icons/mycelium",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Блок мха",
+            "altNames": ["Moss Block", "Строительные блоки", "Building Blocks"],
+            "img": "natural_icons/moss_block",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Моховой ковёр",
+            "altNames": ["Moss Carpet", "Строительные блоки", "Building Blocks"],
+            "img": "natural_icons/moss_carpet",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Спороцвет",
+            "altNames": ["Spore Blossom", "Растения", "Plants"],
+            "img": "natural_icons/spore_blossom",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Гравий",
+            "altNames": ["Gravel", "Природные блоки", "Natural Blocks"],
+            "img": "natural_icons/gravel",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Комок глины",
+            "altNames": ["Clay Ball", "Природные блоки", "Natural Blocks"],
+            "img": "natural_icons/clay_ball",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Глина",
+            "altNames": ["Clay", "Природные блоки", "Natural Blocks"],
+            "img": "natural_icons/clay",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Грязь",
+            "altNames": ["Mud", "Природные блоки", "Natural Blocks"],
+            "img": "natural_icons/mud",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Грязные мангровые корни",
+            "altNames": ["Muddy Mangrove Roots", "Природные блоки", "Natural Blocks"],
+            "img": "natural_icons/muddy_mangrove_roots",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Низкая трава",
+            "altNames": ["Short Grass", "Растения", "Plants"],
+            "img": "natural_icons/short_grass",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Высокая трава",
+            "altNames": ["Tall Grass", "Растения", "Plants"],
+            "img": "natural_icons/tall_grass",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Папоротник",
+            "altNames": ["Fern", "Растения", "Plants"],
+            "img": "natural_icons/fern",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Раскидистый папоротник",
+            "altNames": ["Large Fern", "Растения", "Plants"],
+            "img": "natural_icons/large_fern",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Мёртвый куст",
+            "altNames": ["Dead Bush", "Растения", "Plants"],
+            "img": "natural_icons/dead_bush",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Кактус",
+            "altNames": ["Cactus", "Растения", "Plants"],
+            "img": "natural_icons/cactus",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Сахарный тростник",
+            "altNames": ["Sugar Cane", "Растения", "Plants"],
+            "img": "natural_icons/sugar_cane",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Синий василёк",
+            "altNames": ["Cornflower", "Растения", "Plants"],
+            "img": "natural_icons/cornflower",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Синяя орхидея",
+            "altNames": ["Blue Orchid", "Растения", "Plants"],
+            "img": "natural_icons/blue_orchid",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Белый тюльпан",
+            "altNames": ["White Tulip", "Растения", "Plants"],
+            "img": "natural_icons/white_tulip",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Розовый тюльпан",
+            "altNames": ["Pink Tulip", "Растения", "Plants"],
+            "img": "natural_icons/pink_tulip",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Оранжевый тюльпан",
+            "altNames": ["Orange Tulip", "Растения", "Plants"],
+            "img": "natural_icons/orange_tulip",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Красный тюльпан",
+            "altNames": ["Red Tulip", "Растения", "Plants"],
+            "img": "natural_icons/red_tulip",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Мак",
+            "altNames": ["Poppy", "Растения", "Plants"],
+            "img": "natural_icons/poppy",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Розовый куст",
+            "altNames": ["Rose Bush", "Растения", "Plants"],
+            "img": "natural_icons/rose_bush",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Одуванчик",
+            "altNames": ["Dandelion", "Растения", "Plants"],
+            "img": "natural_icons/dandelion",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Подсолнух",
+            "altNames": ["Sunflower", "Растения", "Plants"],
+            "img": "natural_icons/sunflower",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Розовые лепестки",
+            "altNames": ["Pink Petals", "Растения", "Plants"],
+            "img": "natural_icons/pink_petals",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Пион",
+            "altNames": ["Peony", "Растения", "Plants"],
+            "img": "natural_icons/peony",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Лук-батун",
+            "altNames": ["Luk-batun", "Растения", "Plants"],
+            "img": "natural_icons/allium",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Сирень",
+            "altNames": ["Lilac", "Растения", "Plants"],
+            "img": "natural_icons/lilac",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Хаустония серая",
+            "altNames": ["Gray Haustonia", "Растения", "Plants"],
+            "img": "natural_icons/azure_bluet",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Ромашка",
+            "altNames": ["Oxeye Daisy", "Растения", "Plants"],
+            "img": "natural_icons/oxeye_daisy",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Ландыш",
+            "altNames": ["Lily of the Valley", "Растения", "Plants"],
+            "img": "natural_icons/lily_of_the_valley",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Роза визера",
+            "altNames": ["Wither Rose", "Растения", "Plants"],
+            "img": "natural_icons/wither_rose",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Семена факельника",
+            "altNames": ["Torchflower Seeds", "Семена", "Seeds"],
+            "img": "natural_icons/torchflower_seeds",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Факельник",
+            "altNames": ["Torchflower", "Растения", "Plants"],
+            "img": "natural_icons/torchflower",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Семена кувшинницы",
+            "altNames": ["Pitcher Pod", "Семена", "Seeds"],
+            "img": "natural_icons/pitcher_pod",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Кувшинница",
+            "altNames": ["Pitcher Plant", "Растения", "Plants"],
+            "img": "natural_icons/pitcher_plant",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Яйцо нюхача",
+            "altNames": ["Sniffer Egg", "Прочее", "Misc"],
+            "img": "natural_icons/sniffer_egg",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Нить",
+            "altNames": ["String", "Прочее", "Misc"],
+            "img": "natural_icons/string",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Паутина",
+            "altNames": ["Cobweb", "Прочее", "Misc"],
+            "img": "natural_icons/cobweb",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Скалк",
+            "altNames": ["Sculk", "Скалк", "Sculk"],
+            "img": "natural_icons/sculk",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Скалковая жила",
+            "altNames": ["Sculk Vein", "Скалк", "Sculk"],
+            "img": "natural_icons/sculk_vein",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Скалковый катализатор",
+            "altNames": ["Sculk Catalyst", "Скалк", "Sculk"],
+            "img": "natural_icons/sculk_catalyst",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Скалковый крикун",
+            "altNames": ["Sculk Shrieker", "Скалк", "Sculk"],
+            "img": "natural_icons/sculk_shrieker",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Пчелиные соты",
+            "altNames": ["Honeycomb", "Прочее", "Misc"],
+            "img": "natural_icons/honeycomb",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Блок пчелиных сот",
+            "altNames": ["Honeycomb Block", "Строительные блоки", "Building Blocks"],
+            "img": "natural_icons/honeycomb_block",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Пчелиное гнездо (с 3-мя пчёлами)",
+            "altNames": ["Bee Nest", "Природные блоки", "Natural Blocks"],
+            "img": "natural_icons/bee_nest",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Костная мука",
+            "altNames": ["Bone Meal", "Прочее", "Misc"],
+            "img": "natural_icons/bone_meal",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Костный блок",
+            "altNames": ["Bone Block", "Строительные блоки", "Building Blocks"],
+            "img": "natural_icons/bone_block",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Лианы",
+            "altNames": ["Vine", "Растения", "Plants"],
+            "img": "natural_icons/vine",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Светящийся лишайник",
+            "altNames": ["Glow Lichen", "Растения", "Plants"],
+            "img": "natural_icons/glow_lichen",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Какао-бобы",
+            "altNames": ["Cocoa Beans", "Прочее", "Misc"],
+            "img": "natural_icons/cocoa_beans",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Снежок",
+            "altNames": ["Snowball", "Прочее", "Misc"],
+            "img": "natural_icons/snowball",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Снег",
+            "altNames": ["Snow", "Природные блоки", "Natural Blocks"],
+            "img": "natural_icons/snow",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Блок снега",
+            "altNames": ["Snow Block", "Строительные блоки", "Building Blocks"],
+            "img": "natural_icons/snow_block",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
+          },
+          {
+            "name": "Ведро с рыхлым снегом",
+            "altNames": ["Bucket of Powder Snow", "Прочее", "Misc"],
+            "img": "natural_icons/powder_snow_bucket",
+            "category": "naturalProducts",
+            "colorCard": "#5DA130C2",
+            "colorBackgroundText": "#477A25C1"
         }
     ]
 }
